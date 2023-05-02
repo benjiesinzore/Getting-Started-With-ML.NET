@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Getting_Started_With_ML_DOT_NET", "Getting_Started_With_ML_DOT_NET\Getting_Started_With_ML_DOT_NET.csproj", "{3EB729C2-B971-48F9-8A2B-2270934F0E3C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SentimentModel_ConsoleApp", "SentimentModel_ConsoleApp\SentimentModel_ConsoleApp.csproj", "{2400D58C-9D83-486F-831B-101A4EF6DCBD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SentimentModel_WebApi", "SentimentModel_WebApi\SentimentModel_WebApi.csproj", "{A4613ABB-34E3-41A2-9650-AE550616728A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{3EB729C2-B971-48F9-8A2B-2270934F0E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EB729C2-B971-48F9-8A2B-2270934F0E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EB729C2-B971-48F9-8A2B-2270934F0E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2400D58C-9D83-486F-831B-101A4EF6DCBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2400D58C-9D83-486F-831B-101A4EF6DCBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2400D58C-9D83-486F-831B-101A4EF6DCBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2400D58C-9D83-486F-831B-101A4EF6DCBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4613ABB-34E3-41A2-9650-AE550616728A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4613ABB-34E3-41A2-9650-AE550616728A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4613ABB-34E3-41A2-9650-AE550616728A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4613ABB-34E3-41A2-9650-AE550616728A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
